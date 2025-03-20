@@ -38,18 +38,18 @@ This text can be copied with the icon in the top right corner.
 
 !!! warning "Warning"
 
-  Messages that can lead to potential errors will be specified with this tag.
+    Messages that can lead to potential errors will be specified with this tag.
 
 !!! info "Info"
 
-  Messages that contain helpful information will be specified with this tag.
+    Messages that contain helpful information will be specified with this tag.
 
 !!! success "Success"
 
-  Messages that lead to a sucessful completion of a task will be specified with this tag.
+    Messages that lead to a sucessful completion of a task will be specified with this tag.
 
-  !!! note "Title of the callout"
+!!! note "Title of the callout"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+  nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+  massa, nec semper lorem quam in massa.
