@@ -2,6 +2,8 @@ site_name: Hi Sam
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  features: 
+  - content.code.copy
   palette: 
     scheme: slate
     primary: indigo
