@@ -5,14 +5,15 @@ Nodemon will allow us to view our file and have it auto update, which will alevi
 
 ## Github
 - intiliaze github in vs code
-- check our file using node .\filename
-- add the names of the files we created in the previous step to .gitignore (node_module/*)
+- check our file using *node .\filename*
+- add the names of the files we created in the previous step to **.gitignore (node_module/*)**
   
 ## Installing Nodemon
-- npm install -g nodemon (auto update)
-- nodemon .\filename.js
+- nagivate to the terminal as we did in our last step (VIEW --> TERMINAL)
+- Type the following: *npm install -g nodemon*
+- We will start nodemon by typing the following: *nodemon .\filename.js*
 
 ## Testing our file with Nodemon
-- visit localhost3000/
-- modify hello world response 
-- potential host change from 3000 to another number 1-64536
+- open up a browser and type the following: *localhost3000/*
+- Return back to the file and modify hello world response 
+- Change the port number from 3000 to another number from **1-64536**
