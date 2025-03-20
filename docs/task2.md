@@ -6,6 +6,7 @@ Nodemon will allow us to view our file and have it auto update, which will alevi
 ## Github
 - intiliaze github in vs code
 - check our file using node .\filename
+- add the names of the files we created in the previous step to .gitignore (node_module/*)
   
 ## Installing Nodemon
 - npm install -g nodemon (auto update)
