@@ -46,6 +46,6 @@ This text can be copied with the icon in the top right corner.
 
 !!! success "Success"
 
-  Messages that lead to a sucessful completion of a task will be specified with this tag.
+    Messages that lead to a sucessful completion of a task will be specified with this tag.
 
 
