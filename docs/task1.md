@@ -11,7 +11,7 @@ In this section, we will go over the steps to installing and creating our first 
 - Navigate to the terminal window by going to **VIEW --> TERMINAL**
   - This can also be done with the shortcut: *(CTRL + SHIFT + `)*
 - Once the terminal has opened, click into it
-- Type the following: **npm init**
+- Type the following: *npm init*
 
 
 ## Copy over the boilerplate code
