@@ -11,11 +11,15 @@ This documentation is designed for users who are beginners with web development 
 
 ## Prerequisites
 This documentation is designed to be used with the following assumptions:
+
+
 - User has the latest version of vsCode installed.
 - User is using a Windows Operating System.
   
 ## Task Overview
 Here are the following tasks that our guide will help walk you through:
+
+
 - Getting Started with Express JS
 - Connecting to GitHub and Installing Nodemon
 - Using Get/Send/Listen
