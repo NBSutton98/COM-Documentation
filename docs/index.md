@@ -37,4 +37,13 @@ This text can be copied with the icon in the top right corner.
 ## Messages and Notes
 
 !!! warning "Warning"
+
   Messages that can lead to potential errors will be specified with this tag.
+
+!!! info "Info"
+
+  Messages that contain helpful information will be specified with this tag.
+
+!!! success "Success"
+
+  Messages that lead to a sucessful completion of a task will be specified with this tag.
