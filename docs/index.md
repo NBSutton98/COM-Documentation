@@ -1,15 +1,25 @@
 # Overview
 
-This documentation will guide you through how to host a website through the use of Node.js and Express.js. (Node.js and Express.js definitions/explanations) Our goal is to provide a framework that is reusable and can be modified in the future for different websites. Our documentation will guide you through the basics.
+This documentation will guide you through how to host a website through the use of Node.js and Express.js. Our goal is to provide a framework that is reusable and can be modified in the future for different websites. Our documentation will guide you through the basics.
+* Node.js is a cross-platform, open-source runtime environment that runs the V8 JavaScript engine outside of a web browser.
+* Express.js is web application framework, built on the top of node js, that provides features for building web applications. It helps manage routes and servers.
 
-## Commands
+## Intended Users
+This documentation is designed for users who are beginners with web development and need to set up their own website.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Prerequisites
+This documentation is designed to be used with the following assumptions:
+* User has the latest version of vsCode installed.
+* User is using a Windows Operating System.
+  
+## Task Overview
+Here are the following tasks that our guide will help walk you through:
+* Getting Started with Express JS
+* Connecting to GitHub and Installing Nodemon
+* Using Get/Send/Listen
+* Connecting a website using Express
 
-## Project layout
+## Conventions
 
     mkdocs.yml    # The configuration file.
     docs/
