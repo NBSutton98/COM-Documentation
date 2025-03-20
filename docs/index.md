@@ -27,6 +27,14 @@ Here are the following tasks that our guide will help walk you through:
 
 ## Conventions
 
+- Images will be annotated with red boxes to highlight key information
+- All steps will be numbered sequentially
+- Images with blocks of code will have an option, in the top right corner of the image, to copy the code in that image which provides a shortcut to copy and paste as shown below
+
+```
+This text can be copied with the icon in the top right corner.
+```
+
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
