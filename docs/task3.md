@@ -3,7 +3,7 @@
 In the next steps, we will go over how to start using get, send and listen in Express JS.
 
 ## Use the Get Request Boilerplate 
-- Navigate to the [website](https://expressjs.com/en/starter/hello-world.html)
+- Navigate to the [website](https://expressjs.com/en/starter/hello-world.html), where the boilerplate can be found
 - Copy the Get request from the website
 - paste into project
 
@@ -17,7 +17,7 @@ In the next steps, we will go over how to start using get, send and listen in Ex
 - Navigate to the [website](https://expressjs.com/en/starter/hello-world.html)
 - Copy the app.listen boiler plate from the website
 
-## Testing app.listen
-- app.listen message and test
-- test on local house site
-- change destination/pages
+## Testing our app.listen
+- Change our app.listen message to custom message
+- open up a browser of your choice and type: **localhost:3000\**
+- see our custom message
