@@ -38,11 +38,11 @@ This text can be copied with the icon in the top right corner.
 
 !!! warning "Warning"
 
-  Messages that can lead to potential errors will be specified with this tag.
+    Messages that can lead to potential errors will be specified with this tag.
 
 !!! info "Info"
 
-  Messages that contain helpful information will be specified with this tag.
+    Messages that contain helpful information will be specified with this tag.
 
 !!! success "Success"
 
