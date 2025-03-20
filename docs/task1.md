@@ -10,7 +10,7 @@ In this section, we will go over the steps to installing and creating our first 
 
 ## Getting Started with Express JS
 - npm init
-- Express JS getting started website
+- navigate to the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
 
 ## Copy over the boiler plate code
 - Add req Object to test functionality
