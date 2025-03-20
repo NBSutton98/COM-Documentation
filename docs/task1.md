@@ -6,10 +6,9 @@ In this section, we will go over the steps to installing and creating our first 
 ## Creating our file
 - Select new file
 - Name our file
-- Initialize our file
 
 ## Getting Started with Express JS
-- Navigate to the terminal window by going to VIEW --> TERMINAL
+- Navigate to the terminal window by going to **VIEW --> TERMINAL**
   - This can also be done with the shortcut: *(CTRL + SHIFT + `)*
 - Once the terminal has opened, click into it
 - Type the following: **npm init**
@@ -22,7 +21,7 @@ In this section, we will go over the steps to installing and creating our first 
 ## Installing express
 - Enter through default installation
 - verify package.json
-- Type the following: **npm install express**
-- node .\filename
+- Type the following: *npm install express*
+- To verify we did the last steps correctly, type the following into the terminal: *node .\filename*
 
 
