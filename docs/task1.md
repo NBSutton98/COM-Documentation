@@ -1,5 +1,5 @@
 
-# Installation and Getting Started
+# Getting Started with Express JS
 
 In this section, we will go over the steps to installing and creating our first file
 
