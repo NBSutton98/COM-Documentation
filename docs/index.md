@@ -47,3 +47,9 @@ This text can be copied with the icon in the top right corner.
 !!! success "Success"
 
   Messages that lead to a sucessful completion of a task will be specified with this tag.
+
+  !!! note "Title of the callout"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
