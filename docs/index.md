@@ -31,9 +31,9 @@ Here are the following tasks that our guide will help walk you through:
 - All steps will be numbered sequentially
 - Images with blocks of code will have an option, in the top right corner of the image, to copy the code in that image which provides a shortcut to copy and paste as shown below
 
-```
-<tab><tab>This text can be copied with the icon in the top right corner.
-```
+## The following text can be copied
+    This text can be copied with the icon in the top right corner.
+
 
     mkdocs.yml    # The configuration file.
     docs/
