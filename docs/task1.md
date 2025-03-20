@@ -9,16 +9,20 @@ In this section, we will go over the steps to installing and creating our first 
 - Initialize our file
 
 ## Getting Started with Express JS
-- npm init
-- navigate to the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
+- Navigate to the terminal window by going --> -->
+  - This can also be done with the shortcut: *(CTRL + SHIFT + `)*
+- Once the terminal has opened, click into it
+- Type the following: **npm init**
+
 
 ## Copy over the boiler plate code
+- navigate to the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
 - Add req Object to test functionality
 
 ## Installing express
 - Enter through default installation
 - verify package.json
-- npm install express(download express js library)
+- Type the following: **npm install express**
 - node .\filename
-- add files to .gitignore (node_module/*)
+
 
