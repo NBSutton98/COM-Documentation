@@ -8,4 +8,38 @@ theme:
     scheme: slate
     primary: indigo
     accent: indigo
-  
+markdown_extensions:
+  # emoji library for markdown file
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.highlight: #code highlights
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  #Tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+  #Adomition
+  - admonition
+  - pymdownx.details
+  #Reders Flow diagrams
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+            # extra:
+            #   social:
+            #     - icon: simple/youtube
+            #       link: https://youtube.com/@james-willett
+            #     - icon: simple/linkedin
+            #       link: https://linkedin.com/in/willettjames
+
+
+copyright: Copyright &copy; 2025 Titus and Timothy  
