@@ -1,6 +1,6 @@
-# Introduction to Express JS
+# Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This documentation will guide you through how to host a website through the use of Node.js and Express.js. (Node.js and Express.js definitions/explanations) Our goal is to provide a framework that is reusable and can be modified in the future for different websites. Our documentation will guide you through the basics.
 
 ## Commands
 
