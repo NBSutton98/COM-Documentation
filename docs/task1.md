@@ -7,6 +7,7 @@ In this section, we will go over the steps to installing and creating our first 
 - Select new file that you will be creating
   
 ![NewFile](./Task1/NewFile(1).png)
+
 - Name our file to whatever name of your choice, make sure to include **.js** at the end
 
 ![NewFile](./Task1/NameFile(2).png)
@@ -23,8 +24,6 @@ npm install express
 
 ## Copy over the boilerplate code
 - We will next copy over the boilerplate code provided to us by Express
-![BoilerPlate](./Task1/BoilerPlate(6).png)
-
 ```
 const express = require('express')
 const app = express()
@@ -39,7 +38,6 @@ app.listen(port, () => {
 })
 ```
 - this code can also be found on the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
-- Add req Object to test functionality (what does this do)
 
 
 ## Getting started with npm
@@ -60,9 +58,11 @@ npm init
 - Navigate to the newly created **package.json** that npm has created for us
   
 ![package](./Task1/verifyResults(7).png)
+
 - Verify the names inside **package.json** match what we have installed
 
 ![Express](./Task1/intialization(3).png)
+
 - To verify we did the last steps correctly, type the following into the terminal: *node .\filename*
 ```
 node .\filename
