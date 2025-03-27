@@ -5,9 +5,9 @@ In this section, we will go over the steps to installing and creating our first 
 
 ## Creating our file
 - Select new file that you will be creating
-![NewFile](/Task1/NewFile(1).png)
+![NewFile](./Task1/NewFile(1).png)
 - Name our file to whatever name of your choice, make sure to include **.js** at the end
-![NewFile](/Task1/NameFile(2).png)
+![NewFile](./Task1/NameFile(2).png)
 
 ## Getting Started with Express JS
 - Navigate to the terminal window by going to **VIEW --> TERMINAL**
