@@ -4,7 +4,9 @@ In these steps, we will finally connect our web page using express.
 ## Creating a template HTML page
 - Create a new html file
 - Name the file: *home.html*
-![getInit](./Task4/renameHTML.png) 
+
+![getInit](./Task4/renameHTML.png)
+
 - Once the file is created, click into it
 - At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
 - Copy the following text and paste it into your new file
