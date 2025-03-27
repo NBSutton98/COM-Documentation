@@ -29,10 +29,10 @@ At the top of the page, we will be utilizing a shortcut to make a boilerplate ht
 ```
 
 <br>4 Add a message inside the<br>
-![HTML](./Task4/intializeHTML.png)
+![initHTML](./Task4/intializeHTML.png)
 
 <br>5 Lets verify that our html page is working by checking our localhost:3000!<br>
-![HTML](./Task4/htmlMsgCheck.png)
+![HTML](./Task4/htmlMessageCheck.png)
 
 ## Connecting our website through express
 
@@ -51,7 +51,7 @@ with our new get request, we can now test our new website!
 ![get](./Task4/appGetMessage.png)
 
 <br>8 navigate to localhost:3000 and you should see the new addition<br>
-![jsonViewer](./Task4/jsonViewerTest.png)
+![jsonViewer](./Task4/jsonViewTest.png)
 
 ## Installing json viewer and testing our new website
 
@@ -60,8 +60,8 @@ with our new get request, we can now test our new website!
 - search for json viewer
 - download extension
 - use extension to test our website
-  ![jsonViewer](./Task4/jsonViewer.png)
-  10 once extension is downloaded you visit your localhost:3000 and you should see the new addition<br>
-  ![jsonViewerTest](./Task4/jsonViewerTest.png)
-  11 selecting the parse option will allow us to see our json object in a user friendly way<br>
-  ![jsonViewerParse](./Task4/jsonViewerParse.png)
+
+![jsonViewer](./Task4/jsonViewer.png)
+  
+<br>10 selecting the parse option will allow us to see our json object in a user friendly way<br>
+![jsonViewerParse](./Task4/jsonViewerParse.png)
