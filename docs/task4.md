@@ -34,14 +34,17 @@ In these steps, we will finally connect our web page using express.
 - Go back to our other file where the .send is
 - copy the destination path to the html page we just created
 - Update our app.get
+
   ![reinitGet](./Task4/reintializeGet.png)
+  
 - res.json boiler w/ message
 
 ## Testing our new website with app.get
 
 - with our new get request, we can now test our new website!
-  -lets add a messgae to our json object
-  
+
+- lets add a messgae to our json object
+
   ![get](./Task4/appGetMessage.png)
 
 - navigate to localhost:3000 and you should see the new addition
