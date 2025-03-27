@@ -12,7 +12,11 @@ In this section, we will go over the steps to installing and creating our first 
 ![NewFile](./Task1/NameFile(2).png)
 
 ## Getting Started with Express JS
-- Next we will install Express. Type the following into the terminal: *npm install express*
+- Next we will install Express from the terminal
+- Navigate to the terminal window by going to **VIEW --> TERMINAL**
+- This can also be done with the shortcut: *(CTRL + SHIFT + `)*
+- Once the terminal has opened, click into it
+- Type the following into the terminal: *npm install express*
 ```
 npm install express
 ```
@@ -54,7 +58,7 @@ npm init
 
 ## Checking our steps
 - Navigate to the newly created **package.json** that npm has created for us
-- 
+  
 ![package](./Task1/verifyResults(7).png)
 - Verify the names inside **package.json** match what we have installed
 
