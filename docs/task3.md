@@ -18,6 +18,8 @@ app.listen(port, () => {
 })
 ```
 - This boilerplate can also be found [here](https://expressjs.com/en/starter/hello-world.html)
+- Explain how req works
+![requestBP](./task3/getRequestBoiler.png)
 
 ## Getting started with res.send
 - Explain how res.send will send a message
@@ -31,9 +33,18 @@ node .\filename
 
 
 ## working withapp.listen
-- Change our **app.listen** message to custom message
+- Explain how app.listen works
+
+![listenBP](./task3/listenBoilerPlate.png) 
+
+-  Change our **app.listen** message to custom message
+
+![message](./task3/getSendAMessage.png) 
+  
 - open up a browser of your choice and type: *localhost:3000\*
 ```
 *localhost:3000\*
 ```
 - see our custom message
+
+![message](./task3/listenTest.png) 
