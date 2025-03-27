@@ -41,11 +41,13 @@ In these steps, we will finally connect our web page using express.
 
 - with our new get request, we can now test our new website!
   -lets add a messgae to our json object
+  
   ![get](./Task4/appGetMessage.png)
 
 - navigate to localhost:3000 and you should see the new addition
+
   ![jsonViewer](./Task4/jsonViewerTest.png)
-  
+
 
 
 ## Installing json viewer and testing our new website
