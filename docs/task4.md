@@ -12,7 +12,9 @@ In these steps, we will finally connect our web page using express.
 
 <br>**2** Once the file is created, click into it<br>
 !!! info "Info"
-At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
+
+    At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
+
 <br>**3** Copy the following text and paste it into your new file<br>
 
 ```

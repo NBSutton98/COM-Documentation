@@ -87,5 +87,5 @@ node .\filename
 <br>**12** Finally add a .gitignore file to our project, this will allow us to upload our file to github<br>
 !!! success "Success"
 
-    Your page should look like this:
+    Your page should look like this: <br>
     ![gitIgnore](./Task1/gitIgnore.png)
