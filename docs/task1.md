@@ -17,7 +17,10 @@ In this section, we will go over the steps to installing and creating our first 
 ## Copy over the boilerplate code
 - We will next copy over the boilerplate code provided to us by Express
 - navigate to the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
+- ![BoilerPlate](/Task1/BoilerPlate(6).png)
 - Add req Object to test functionality (what does this do)
+
+
 
 ## Installing express
 - After we have typed **npm init**, we will be asked to enter details about our file
