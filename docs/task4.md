@@ -4,15 +4,15 @@ In these steps, we will finally connect our web page using express.
 
 ## Creating a template HTML page
 
-1 Create a new html file<br>
+<br>1 Create a new html file
 
 - Name the file: _home.html_
 
 ![renameHTML](./Task4/renameHTML.png)
 
-2 Once the file is created, click into it<br>
-   At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
-3 Copy the following text and paste it into your new file<br>
+<br>2 Once the file is created, click into it<br>
+At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
+<br>3 Copy the following text and paste it into your new file<br>
 
 ```
 <!DOCTYPE html>
@@ -28,15 +28,15 @@ In these steps, we will finally connect our web page using express.
 </html>
 ```
 
-4 Add a message inside the<br>
-   ![HTML](./Task4/intializeHTML.png)
+<br>4 Add a message inside the<br>
+![HTML](./Task4/intializeHTML.png)
 
-5 Lets verify that our html page is working by checking our localhost:3000!<br>
-   ![HTML](./Task4/htmlMsgCheck.png)
+<br>5 Lets verify that our html page is working by checking our localhost:3000!<br>
+![HTML](./Task4/htmlMsgCheck.png)
 
 ## Connecting our website through express
 
-6 Go back to our other file where the .send is<br>
+<br>6 Go back to our other file where the .send is<br>
 
 - copy the destination path to the html page we just created
 - Update our app.get
@@ -47,15 +47,15 @@ In these steps, we will finally connect our web page using express.
 
 with our new get request, we can now test our new website!
 
-7 lets add a messgae to our json object<br>
+<br>7 lets add a messgae to our json object<br>
 ![get](./Task4/appGetMessage.png)
 
-8 navigate to localhost:3000 and you should see the new addition<br>
+<br>8 navigate to localhost:3000 and you should see the new addition<br>
 ![jsonViewer](./Task4/jsonViewerTest.png)
 
 ## Installing json viewer and testing our new website
 
-9 go to extensions page <br>
+<br>9 go to extensions page <br>
 
 - search for json viewer
 - download extension
