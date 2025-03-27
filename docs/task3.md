@@ -4,7 +4,7 @@ In the next steps, we will go over how to start using get, send and listen in Ex
 
 ## Use the Get Request Boilerplate
 
-- Copy the Get request provided and paste it into your file
+1. Copy the Get request provided and paste it into your file
 
 ```
 const express = require('express')
@@ -19,14 +19,14 @@ app.listen(port, () => {
 console.log(`Example app listening on port ${port}`)
 })
 ```
-
-- The boilerplate code can also be found at this [website](https://expressjs.com/en/starter/hello-world.html)
+Info Block:
+- The boilerplate code can also be found at this [website](https://expressjs.com/en/starter/hello-world.html) 
 
 ## Getting started with res.send
 
 - Next, we will explain how res.send will send a message
 
-- Type the following in the terminal: **node .\filename**
+2. Type the following in the terminal: **node .\filename**
 
 ```
 node .\filename
@@ -34,7 +34,7 @@ node .\filename
 
 - In the same terminal, the program can be stopped by typing the following: **CTRL + UPPERCASE C\_**
 
-- Copy the following code into your vsCode, which will send our first message
+3. Copy the following code into your vsCode, which will send our first message
 
 ```
 app.get("/", (req, res) => {
@@ -48,19 +48,19 @@ app.get("/", (req, res) => {
 
 - Now we wil text our **app.listen** message to view what we just created with res.send
 
-- open up a browser of your choice and type: _localhost:3000_
+4. open up a browser of your choice and type: _localhost:3000_
 
 ```
 localhost:3000
 ```
 
-- Check our generic message
+5. Check our generic message
 
 ![message](./task3/listenTest.png)
 
 ## Using res.send for a new page
 
-- Now we will go back to vsCode to send a message to a new page. Copy the following code:
+6. Now we will go back to vsCode to send a message to a new page. Copy the following code:
 
 ```
 app.get("/page1", (req, res) => {
@@ -68,6 +68,6 @@ app.get("/page1", (req, res) => {
 })
 ```
 
-- let test this page by the /page route and see our result 
+7. let test this page by the /page route and see our result 
 
 ![pageTest](./task3/chnagePageTest.png)

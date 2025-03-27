@@ -4,14 +4,15 @@ In these steps, we will finally connect our web page using express.
 
 ## Creating a template HTML page
 
-- Create a new html file
+1. Create a new html file
+
 - Name the file: _home.html_
 
 ![renameHTML](./Task4/renameHTML.png)
 
-- Once the file is created, click into it
-- At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
-- Copy the following text and paste it into your new file
+2. Once the file is created, click into it
+   At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
+3. Copy the following text and paste it into your new file
 
 ```
 <!DOCTYPE html>
@@ -27,42 +28,45 @@ In these steps, we will finally connect our web page using express.
 </html>
 ```
 
-- Add a message inside the <body>
+4. Add a message inside the <body>
+
+   ![HTML](./Task4/intializeHTML.png)
+
+5. Lets verify that our html page is working by checking our localhost:3000!
+
+![HTML](./Task4/htmlMsgCheck.png)
 
 ## Connecting our website through express
 
-- Go back to our other file where the .send is
+6. Go back to our other file where the .send is
 - copy the destination path to the html page we just created
 - Update our app.get
 
   ![reinitGet](./Task4/reintializeGet.png)
-  
-- res.json boiler w/ message
+
 
 ## Testing our new website with app.get
 
-- with our new get request, we can now test our new website!
+with our new get request, we can now test our new website!
 
-- lets add a messgae to our json object
+7. lets add a messgae to our json object
 
   ![get](./Task4/appGetMessage.png)
 
-- navigate to localhost:3000 and you should see the new addition
+8. navigate to localhost:3000 and you should see the new addition
 
   ![jsonViewer](./Task4/jsonViewerTest.png)
 
-
-
 ## Installing json viewer and testing our new website
 
-- go to extensions page
+9. go to extensions page
 - search for json viewer
 - download extension
 - use extension to test our website
   ![jsonViewer](./Task4/jsonViewer.png)
 
-- once extension is downloaded you visit your localhost:3000 and you should see the new addition
+10. once extension is downloaded you visit your localhost:3000 and you should see the new addition
   ![jsonViewerTest](./Task4/jsonViewerTest.png)
 
-- selecting the parse option will allow us to see our json object in a user friendly way
+11. selecting the parse option will allow us to see our json object in a user friendly way
   ![jsonViewerParse](./Task4/jsonViewerParse.png)
