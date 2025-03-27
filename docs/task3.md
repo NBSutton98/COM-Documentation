@@ -31,7 +31,7 @@ node .\filename
 
 
 ## working withapp.listen
-- Change our **app.listen message to custom message
+- Change our **app.listen** message to custom message
 - open up a browser of your choice and type: *localhost:3000\*
 ```
 *localhost:3000\*
