@@ -22,7 +22,7 @@ npm install -g nodemon
 
 ![Nodemon](./Task2/Nodemon.png)
 
-- We will start Nodemon by typing the following: *nodemon .\filename.js*
+- We will start Nodemon by typing the following in the terminal: *nodemon .\filename.js*
 ```
 nodemon .\filename.js
 ```
@@ -37,5 +37,6 @@ localhost:3000/
 
 ![TestingServer](./Task2/serverTest.png)
 
-- Return back to the file and modify hello world response 
+- Return back to the file and modify hello world response
+
 - Change the port number from **3000** to another number from **1-64536**

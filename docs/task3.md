@@ -2,24 +2,72 @@
 
 In the next steps, we will go over how to start using get, send and listen in Express JS.
 
-## Use the Get Request Boilerplate 
-- Navigate to the [website](https://expressjs.com/en/starter/hello-world.html), where the boilerplate can be found
-- Copy the Get request from the website and paste it into your file
+## Use the Get Request Boilerplate
+
+- Copy the Get request provided and paste it into your file
+
+```
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+res.send('Hello World!')
+})
+
+app.listen(port, () => {
+console.log(`Example app listening on port ${port}`)
+})
+```
+
+- The boilerplate code can also be found at this [website](https://expressjs.com/en/starter/hello-world.html)
 
 ## Getting started with res.send
 
-- Explain how res.send will send a message
+- Next, we will explain how res.send will send a message
 
 - Type the following in the terminal: **node .\filename**
-- In the same terminal, the program can be stopped by typing the following: *CTRL + UPPERCASE C*
 
-## Getting started with app.listen
-- Navigate to the [website](https://expressjs.com/en/starter/hello-world.html)
-- Copy the app.listen boiler plate from the website into the project
+```
+node .\filename
+```
+
+- In the same terminal, the program can be stopped by typing the following: **CTRL + UPPERCASE C\_**
+
+- Copy the following code into your vsCode, which will send our first message
+
+```
+app.get("/", (req, res) => {
+    res.send("<h1> Welcome to my first site!</h1>")
+})
+```
+
+- Now
 
 ## Testing our app.listen
-- Change our **app.listen message to custom message
-- open up a browser of your choice and type: *localhost:3000\*
-- see our custom message
 
-![message](./task3/listenTest.png) 
+- Now we wil text our **app.listen** message to view what we just created with res.send
+
+- open up a browser of your choice and type: _localhost:3000_
+
+```
+localhost:3000
+```
+
+- Check our generic message
+
+![message](./task3/listenTest.png)
+
+## Using res.send for a new page
+
+- Now we will go back to vsCode to send a message to a new page. Copy the following code:
+
+```
+app.get("/page1", (req, res) => {
+    res.send("<h1> Welcome to page1!</h1>")
+})
+```
+
+- let test this page by the /page route and see our result 
+
+![pageTest](./task3/chnagePageTest.png)
