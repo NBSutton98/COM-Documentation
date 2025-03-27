@@ -4,10 +4,10 @@ In this section, we will go over the steps to installing and creating our first 
 
 ## Creating our file
 
-1.  Select new file that you will be creating<br> 
+1.  Select new file that you will be creating<br>
     ![NewFile](<./Task1/NewFile(1).png>)
 2.  Name our file to whatever name of your choice, make sure to include **.js** at the end<br>
-![NewFile](<./Task1/NameFile(2).png>)
+    ![NewFile](<./Task1/NameFile(2).png>)
 
 ## Getting Started with Express JS
 
@@ -15,10 +15,9 @@ Next we will install Express from the terminal
 
 3. Navigate to the terminal window by going to **VIEW --> TERMINAL**
 
-- This can also be done with the shortcut: _(CTRL + SHIFT + `)_
+- This can also be done with the shortcut: _(CTRL + SHIFT + `)
 
-4. Once the terminal has opened, click into it
-
+4. Once the terminal has opened, click into it<br>
 - Type the following into the terminal: _npm install express_
 
 ```
@@ -27,7 +26,7 @@ npm install express
 
 ## Copy over the boilerplate code
 
-5. We will next copy over the boilerplate code provided to us by Express
+5. We will next copy over the boilerplate code provided to us by Express<br>
 
 ```
 const express = require('express')
@@ -43,16 +42,13 @@ app.listen(port, () => {
 })
 ```
 
-this code can also be found on the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
+- this code can also be found on the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
 
 ## Getting started with npm
 
-6. Navigate to the terminal window by going to **VIEW --> TERMINAL**
-
+6. Navigate to the terminal window by going to **VIEW --> TERMINAL**<br>
 - This can also be done with the shortcut: _(CTRL + SHIFT + `)_
-
-7. Once the terminal has opened, click into it
-
+7. Once the terminal has opened, click into it<br>
 ![Init](<./Task1/npmINIT(4).png>)
 
 - Type the following: _npm init_
@@ -61,18 +57,14 @@ this code can also be found on the [Express JS Setting Started](https://expressj
 npm init
 ```
 
-8. After we have typed **npm init**, we will be asked to enter details about our file
-
+8. After we have typed **npm init**, we will be asked to enter details about our file<br>
 - Continuously press _ENTER_ until all done
 
 ## Checking our steps
-
-9. Navigate to the newly created **package.json** that npm has created for us
-
+9. Navigate to the newly created **package.json** that npm has created for us<br>
 ![package](<./Task1/verifyResults(7).png>)
 
-Verify the names inside **package.json** match what we have installed
-
+10. Verify the names inside **package.json** match what we have installed
 ![Express](<./Task1/intialization(3).png>)
 
 To verify we did the last steps correctly, type the following into the terminal: _node .\filename_
@@ -81,5 +73,5 @@ To verify we did the last steps correctly, type the following into the terminal:
 node .\filename
 ```
 
-10. Finally add a .gitignore file to our project, this will allow us to upload our file to github.
+10. Finally add a .gitignore file to our project, this will allow us to upload our file to github<br>
     ![gitIgnore](./Task1/gitIgnore.png)
