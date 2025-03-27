@@ -56,7 +56,9 @@ localhost:3000
 ```
 
 <br>**5** Check our generic message<br>
-![message](./task3/listenTest.png)
+!!! success "Success"
+
+    ![message](./task3/listenTest.png)
 
 ## Using res.send for a new page
 
@@ -68,5 +70,7 @@ app.get("/page1", (req, res) => {
 })
 ```
 
-<br>**7** let test this page by the /page route and see our result <br>
-![pageTest](./task3/chnagePageTest.png)
+<br>**7** Lets test this page by the /page route and check our result <br>
+!!! success "Success"
+
+    ![pageTest](./task3/chnagePageTest.png)

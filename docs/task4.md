@@ -12,7 +12,7 @@ In these steps, we will finally connect our web page using express.
 
 <br>**2** Once the file is created, click into it<br>
 !!! info "Info"
-        At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
+At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
 <br>**3** Copy the following text and paste it into your new file<br>
 
 ```
@@ -33,7 +33,9 @@ In these steps, we will finally connect our web page using express.
 ![initHTML](./Task4/intializeHTML.png)
 
 <br>**5** Lets verify that our html page is working by checking our localhost:3000!<br>
-![HTML](./Task4/htmlMessageCheck.png)
+!!! success "Success"
+
+    ![HTML](./Task4/htmlMessageCheck.png)
 
 ## Connecting our website through express
 
@@ -47,12 +49,15 @@ In these steps, we will finally connect our web page using express.
 ## Testing our new website with app.get
 
 !!! info "Info"
-        With our new get request, we can now test our new website!
+
+    With our new get request, we can now test our new website!
 
 <br>**7** lets add a messgae to our json object<br>
 ![get](./Task4/appGetMessage.png)
 
 <br>**8** navigate to localhost:3000 and you should see the new addition<br>
+!!! success "Success"
+
 ![jsonViewer](./Task4/jsonViewTest.png)
 
 ## Installing json viewer and testing our new website
@@ -66,4 +71,4 @@ In these steps, we will finally connect our web page using express.
 ![jsonViewer](./Task4/jsonViewer.png)
 
 <br>**10** selecting the parse option will allow us to see our json object in a user friendly way<br>
-![jsonViewerParse](./Task4/jsonViewerParse.png)
+![jsonViewParsed](./Task4/jsonViewParsed.png)

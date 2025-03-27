@@ -41,7 +41,10 @@ nodemon .\filename.js
 localhost:3000/
 ```
 
-![TestingServer](./Task2/serverTest.png)
+!!! success "Success"
+
+   ![TestingServer](./Task2/serverTest.png)
+
 <br>**7** Return back to the file and modify hello world response
 <br>**8** Change the port number from **3000** to another number from **1-64536**
 ![TestingServer](./task3/listenBoilerPlate.png)

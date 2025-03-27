@@ -84,5 +84,7 @@ npm init
 node .\filename
 ```
 
-<br>**12** Finally add a .gitignore file to our project, this will allow us to upload our file to github<br>
-![gitIgnore](./Task1/gitIgnore.png)
+<br>**12** Finally add a .gitignore file to our project, this will allow us to upload our file to github. Your page should look something like this<br>
+!!! success "Success"
+
+    ![gitIgnore](./Task1/gitIgnore.png)
