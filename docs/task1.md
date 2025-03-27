@@ -19,7 +19,7 @@ Next we will install Express from the terminal
 
 !!! info "Info"
 
-  This can also be done with the shortcut: \_(CTRL + SHIFT + `)
+    This can also be done with the shortcut: \_(CTRL + SHIFT + `)
 
 <br>**4** Once the terminal has opened, click into it and typee the following into the terminal: _npm install express_
 
@@ -47,7 +47,7 @@ app.listen(port, () => {
 
 !!! info "Info"
 
-  this code can also be found on the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
+    This code can also be found on the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
 
 ## Getting started with npm
 
@@ -55,7 +55,7 @@ app.listen(port, () => {
 
 !!! info "Info"
 
-  This can also be done with the shortcut: _(CTRL + SHIFT + `)_
+    This can also be done with the shortcut: _(CTRL + SHIFT + `)_
 
 <br>**7** Once the terminal has opened, click into it and type the following: _npm init_<br>
 ![Init](<./Task1/npmINIT(4).png>)
@@ -66,7 +66,7 @@ npm init
 
 !!! info "Info"
 
-  After we have typed **npm init**, we will be asked to enter details about our file
+    After we have typed **npm init**, we will be asked to enter details about our file
 
 <br>**8** Continuously press _ENTER_ until all done
 
