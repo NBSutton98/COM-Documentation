@@ -14,7 +14,11 @@ In this section, we will go over the steps to installing and creating our first 
   - This can also be done with the shortcut: *(CTRL + SHIFT + `)*
 - Once the terminal has opened, click into it
 - Type the following: *npm init*
+
 ![Init](/Task1/npmINIT(4).png)
+```
+npm init
+```
 
 ## Copy over the boilerplate code
 - We will next copy over the boilerplate code provided to us by Express
@@ -40,18 +44,18 @@ app.listen(port, () => {
 
 ## Installing express
 - After we have typed **npm init**, we will be asked to enter details about our file
-```
-npm init
-```
 - Continuously press *ENTER* until all done
 - Navigate to the newly created **package.json** that npm has created for us
-- Verify the names inside **package.json** match what we have installed
 ![package](/Task1/verifyResults(7).png)
-- Type the following: *npm install express*
+- Verify the names inside **package.json** match what we have installed
+- Next we will install Express. Type the following into the terminal: *npm install express*
 ```
 npm install express
 ```
 ![Express](/Task1/intialization(3).png)
 - To verify we did the last steps correctly, type the following into the terminal: *node .\filename*
+```
+node .\filename
+```
 
 
