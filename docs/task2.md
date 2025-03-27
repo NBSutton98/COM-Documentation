@@ -17,9 +17,7 @@ node .\filename
 
 ## Installing Nodemon
 
-<br>**4** nagivate to the terminal as we did in our last step **(VIEW --> TERMINAL)**
-
-- Type the following: _npm install -g nodemon_
+<br>**4** nagivate to the terminal as we did in our last step **(VIEW --> TERMINAL)** and type the following: _npm install -g nodemon_
 
 ```
 npm install -g nodemon

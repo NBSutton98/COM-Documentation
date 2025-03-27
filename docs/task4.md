@@ -11,7 +11,8 @@ In these steps, we will finally connect our web page using express.
 ![renameHTML](./Task4/renameHTML.png)
 
 <br>**2** Once the file is created, click into it<br>
-At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
+!!! info "Info"
+        At the top of the page, we will be utilizing a shortcut to make a boilerplate html page
 <br>**3** Copy the following text and paste it into your new file<br>
 
 ```
@@ -45,7 +46,8 @@ At the top of the page, we will be utilizing a shortcut to make a boilerplate ht
 
 ## Testing our new website with app.get
 
-with our new get request, we can now test our new website!
+!!! info "Info"
+        With our new get request, we can now test our new website!
 
 <br>**7** lets add a messgae to our json object<br>
 ![get](./Task4/appGetMessage.png)
