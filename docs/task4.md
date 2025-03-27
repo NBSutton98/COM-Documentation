@@ -35,6 +35,7 @@ At the top of the page, we will be utilizing a shortcut to make a boilerplate ht
 <br>**5** Lets verify that our html page is working by checking our localhost:3000!<br>
 !!! success "Success"
 
+    Your page should look like this:
     ![HTML](./Task4/htmlMessageCheck.png)
 
 ## Connecting our website through express
@@ -58,7 +59,8 @@ At the top of the page, we will be utilizing a shortcut to make a boilerplate ht
 <br>**8** navigate to localhost:3000 and you should see the new addition<br>
 !!! success "Success"
 
-![jsonViewer](./Task4/jsonViewTest.png)
+    Your page should look like this:
+    [jsonViewer](./Task4/jsonViewTest.png)
 
 ## Installing json viewer and testing our new website
 
@@ -71,4 +73,7 @@ At the top of the page, we will be utilizing a shortcut to make a boilerplate ht
 ![jsonViewer](./Task4/jsonViewer.png)
 
 <br>**10** selecting the parse option will allow us to see our json object in a user friendly way<br>
-![jsonViewParsed](./Task4/jsonViewParsed.png)
+!!! success "Success"
+
+    Your page should look like this:
+    ![jsonViewParsed](./Task4/jsonViewParsed.png)

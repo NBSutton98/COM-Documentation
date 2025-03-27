@@ -43,7 +43,8 @@ localhost:3000/
 
 !!! success "Success"
 
-   ![TestingServer](./Task2/serverTest.png)
+    Your page should look like this:
+    ![TestingServer](./Task2/serverTest.png)
 
 <br>**7** Return back to the file and modify hello world response
 <br>**8** Change the port number from **3000** to another number from **1-64536**
