@@ -5,23 +5,35 @@ Nodemon will allow us to view our file and have it auto update, which will alevi
 
 ## Github
 - Intiliaze github in VSC
-- check our file using *node .\filename*
+- check our file by typing the following in the terminal: *node .\filename*
+```
+node .\filename
+```
 - add the names of the files we created in the previous step to **.gitignore (node_module/*)**
 
-![gitIgnore](./Task2/.gitIgnore(7).png)
+![gitIgnore](./Task2/gitIgnore(7).png)
   
 ## Installing Nodemon
 - nagivate to the terminal as we did in our last step **(VIEW --> TERMINAL)**
 - Type the following: *npm install -g nodemon*
+```
+npm install -g nodemon
+```
 
 ![Nodemon](./Task2/Nodemon.png)
 
 - We will start Nodemon by typing the following: *nodemon .\filename.js*
+```
+nodemon .\filename.js
+```
 
-![NodemonServer](/Task2/NodemonServer.png)
+![NodemonServer](./Task2/NodemonServer.png)
 
 ## Testing our file with Nodemon
-- open up a browser and type the following: *localhost3000/*
+- open up a browser and type the following: *localhost:3000/*
+```
+localhost:3000/
+```
 
 ![TestingServer](./Task2/serverTest.png)
 
