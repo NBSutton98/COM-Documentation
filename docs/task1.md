@@ -17,11 +17,11 @@ Next we will install Express from the terminal
 
 <br>**3** Navigate to the terminal window by going to **VIEW --> TERMINAL**
 
-- This can also be done with the shortcut: \_(CTRL + SHIFT + `)
+!!! info "Info"
 
-<br>**4** Once the terminal has opened, click into it<br>
+  This can also be done with the shortcut: \_(CTRL + SHIFT + `)
 
-- Type the following into the terminal: _npm install express_
+<br>**4** Once the terminal has opened, click into it and typee the following into the terminal: _npm install express_
 
 ```
 npm install express
@@ -45,24 +45,29 @@ app.listen(port, () => {
 })
 ```
 
-- this code can also be found on the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
+!!! info "Info"
+
+  this code can also be found on the [Express JS Setting Started](https://expressjs.com/en/starter/installing.html) website
 
 ## Getting started with npm
 
 <br>**6** Navigate to the terminal window by going to **VIEW --> TERMINAL**<br>
 
-- This can also be done with the shortcut: _(CTRL + SHIFT + `)_
+!!! info "Info"
 
-<br>**7** Once the terminal has opened, click into it<br>
+  This can also be done with the shortcut: _(CTRL + SHIFT + `)_
+
+<br>**7** Once the terminal has opened, click into it and type the following: _npm init_<br>
 ![Init](<./Task1/npmINIT(4).png>)
-
-- Type the following: _npm init_
 
 ```
 npm init
 ```
 
-- After we have typed **npm init**, we will be asked to enter details about our file
+!!! info "Info"
+
+  After we have typed **npm init**, we will be asked to enter details about our file
+
 <br>**8** Continuously press _ENTER_ until all done
 
 ## Checking our steps
@@ -73,11 +78,11 @@ npm init
 <br>**10** Verify the names inside **package.json** match what we have installed<br>
 ![Express](<./Task1/intialization(3).png>)
 
-To verify we did the last steps correctly, type the following into the terminal: _node .\filename_
+<br>**11** To verify we did the last steps correctly, type the following into the terminal: _node .\filename_
 
 ```
 node .\filename
 ```
 
-<br>**11** Finally add a .gitignore file to our project, this will allow us to upload our file to github<br>
+<br>**12** Finally add a .gitignore file to our project, this will allow us to upload our file to github<br>
 ![gitIgnore](./Task1/gitIgnore.png)
