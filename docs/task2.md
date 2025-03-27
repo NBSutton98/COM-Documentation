@@ -11,7 +11,7 @@ node .\filename
 ```
 - add the names of the files we created in the previous step to **.gitignore (node_module/*)**
 
-![gitIgnore](./Task2/.gitIgnore(7).png)
+![gitIgnore](./Task2/gitIgnore(7).png)
   
 ## Installing Nodemon
 - nagivate to the terminal as we did in our last step **(VIEW --> TERMINAL)**
@@ -27,7 +27,7 @@ npm install -g nodemon
 nodemon .\filename.js
 ```
 
-![NodemonServer](/Task2/NodemonServer.png)
+![NodemonServer](./Task2/NodemonServer.png)
 
 ## Testing our file with Nodemon
 - open up a browser and type the following: *localhost:3000/*
