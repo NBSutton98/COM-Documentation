@@ -8,7 +8,8 @@ In this section, we will go over the steps to installing and creating our first 
 
 ![NewFile](<./Task1/NewFile(1).png>)
 
-        2. Name our file to whatever name of your choice, make sure to include **.js** at the end
+
+2. Name our file to whatever name of your choice, make sure to include **.js** at the end
 
 ![NewFile](<./Task1/NameFile(2).png>)
 
