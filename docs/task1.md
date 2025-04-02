@@ -21,7 +21,7 @@ Next we will install Express from the terminal
 
     This can also be done with the shortcut: \_(CTRL + SHIFT + `)
 
-<br>**4** Once the terminal has opened, click into it and typee the following into the terminal: _npm install express_
+<br>**4** Once the terminal has opened, click into it and type the following into the terminal: _npm install express_
 
 ```
 npm install express

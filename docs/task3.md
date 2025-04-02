@@ -4,7 +4,7 @@ In the next steps, we will go over how to start using get, send and listen in Ex
 
 ## Use the Get Request Boilerplate
 
-<br>**1** Copy the Get request provided and paste it into your file<br>
+<br>**1** Copy or reuse the app.get request from our previous and paste it into your file<br>
 
 ```
 const express = require('express')
@@ -27,7 +27,7 @@ console.log(`Example app listening on port ${port}`)
 ## Getting started with res.send
 
 - Next, we will explain how res.send will send a message
-  <br>**2** Type the following in the terminal: **node .\filename**<br>
+<br>**2** Type the following in the terminal: **node .\filename**<br>
 
 ```
 node .\filename
@@ -36,6 +36,13 @@ node .\filename
 !!! info "Info"
 
     In the same terminal, the program can be stopped by typing the following: **CTRL + UPPERCASE C\_**
+
+!!! warning "Warning"
+
+    If the program is stopped using **CTRL + UPPERCASE C** is used, nodemon must be restarted again before continuing again using the following code:
+    ```
+    nodemon .\filename.js
+    ```
 
 <br>**3** Copy the following code into your vsCode, which will send our first message<br>
 
@@ -49,7 +56,7 @@ app.get("/", (req, res) => {
 
 - Now we wil text our **app.listen** message to view what we just created with res.send
 
-<br>**4** open up a browser of your choice and type: _localhost:3000_<br>
+<br>**4** Open up a browser of your choice and type: _localhost:3000_<br>
 
 ```
 localhost:3000

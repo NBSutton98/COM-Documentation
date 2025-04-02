@@ -14,10 +14,14 @@ node .\filename
 
 <br>**3** Add the names of the files we created in the previous step to **.gitignore (node_module/\*)**
 ![gitIgnore](<./Task2/gitIgnore(7).png>)
+!!! success "Success"
+
+    Your page should look like this: <br>
+    ![gitIgnore](./Task1/gitIgnore.png)
 
 ## Installing Nodemon
 
-<br>**4** nagivate to the terminal as we did in our last step **(VIEW --> TERMINAL)** and type the following: _npm install -g nodemon_
+<br>**4** Nagivate to the terminal as we did in our last step **(VIEW --> TERMINAL)** and type the following: _npm install -g nodemon_
 
 ```
 npm install -g nodemon
@@ -46,6 +50,13 @@ localhost:3000/
     Your page should look like this:
     ![TestingServer](./Task2/serverTest.png)
 
-<br>**7** Return back to the file and modify hello world response
+<br>**7** Return back to the file and modify the app.get boilerplate from earlier to your own custom message
+
+```
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+```
+
 <br>**8** Change the port number from **3000** to another number from **1-64536**
 ![TestingServer](./task3/listenBoilerPlate.png)

@@ -4,9 +4,7 @@ In these steps, we will finally connect our web page using express.
 
 ## Creating a template HTML page
 
-<br>**1** Create a new html file
-
-- Name the file: _home.html_
+<br>**1** Create a new html file and name the file: _home.html_
 
 ![renameHTML](./Task4/renameHTML.png)
 
@@ -31,10 +29,11 @@ In these steps, we will finally connect our web page using express.
 </html>
 ```
 
-<br>**4** Add a message inside the<br>
+<br>**4** Add a message between the body tags as can be seen below<br>
+
 ![initHTML](./Task4/intializeHTML.png)
 
-<br>**5** Lets verify that our html page is working by checking our localhost:3000!<br>
+<br>**5** Let's verify that our html page is working by checking our **localhost:3000!**<br>
 !!! success "Success"
 
     Your page should look like this: <br>
@@ -42,9 +41,9 @@ In these steps, we will finally connect our web page using express.
 
 ## Connecting our website through express
 
-<br>**6** Go back to our other file where the .send is<br>
+<br>**6** Return to our other file where the .send is<br>
 
-- copy the destination path to the html page we just created
+- Copy the destination path to the html page we just created
 - Update our app.get
 
   ![reinitGet](./Task4/reintializeGet.png)
@@ -55,10 +54,10 @@ In these steps, we will finally connect our web page using express.
 
     With our new get request, we can now test our new website!
 
-<br>**7** lets add a messgae to our json object<br>
+<br>**7** Let's add a messgae to our json object<br>
 ![get](./Task4/appGetMessage.png)
 
-<br>**8** navigate to localhost:3000 and you should see the new addition<br>
+<br>**8** Navigate to **localhost:3000** and you should see the new addition<br>
 !!! success "Success"
 
     Your page should look like this: <br>
@@ -66,15 +65,15 @@ In these steps, we will finally connect our web page using express.
 
 ## Installing json viewer and testing our new website
 
-<br>**9** go to extensions page <br>
+<br>**9** Navigate to the extensions page <br>
 
-- search for json viewer
-- download extension
-- use extension to test our website
+- Search for json viewer
+- Download the extension
+- Use extension to test our website
 
 ![jsonViewer](./Task4/jsonViewer.png)
 
-<br>**10** selecting the parse option will allow us to see our json object in a user friendly way<br>
+<br>**10** Selecting the parse option will allow us to see our json object in a user friendly way<br>
 !!! success "Success"
 
     Your page should look like this: <br>
