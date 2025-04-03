@@ -4,7 +4,7 @@ This documentation will guide you through how to host a website through the use 
 
 ## Intended Users
 
-This documentation is designed for users who are familiar with vsCode, GitHub, and the use of the the inspect option in their preferred internet browser, and need to set up their own website.
+This documentation is designed for users who are familiar with vsCode, GitHub, and the use of the inspect option in their preferred internet browser, and need to set up their own website.
 
 ## Prerequisites
 
