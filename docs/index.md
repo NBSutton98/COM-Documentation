@@ -14,6 +14,7 @@ This documentation is designed to be used with the following assumptions:
 - Users are using a Windows Operating System.
 - Users already have a new vsCode project open
 - Users have already connected their vsCode to GitHub
+- Users already have npm downloaded
 
 ## Task Overview
 

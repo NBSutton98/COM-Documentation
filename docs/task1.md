@@ -68,19 +68,24 @@ npm init
 
     After we have typed **npm init**, we will be asked to enter details about our file
 
-<br>**8** Continuously press _ENTER_ until all done
+<br>**8** Leave all default parameters by continuously press _ENTER_ until all done
+
+<br>**9** Type the following into the terminal:
+```
+npm install express
+```
+
+<br>**9** Once packages have been installed, verify that the messages inside **package.json** match the image below<br>
+![Express](<./Task1/intialization(3).png>)
 
 ## Checking our steps
 
-<br>**9** Navigate to the newly created **package.json** that npm has created for us<br>
+<br>**10** Navigate to the newly created **package.json** that npm has created for us<br>
 ![package](<./Task1/verifyResults(7).png>)
-
-<br>**10** Once packages have been installed, verify that the messages inside **package.json** match the image below<br>
-![Express](<./Task1/intialization(3).png>)
-
 <br>**11** To verify we did the last steps correctly, type the following into the terminal: _node .\filename_
 
 ```
 node .\filename
 ```
 
+![Express](./Task1/FinalStep.png)

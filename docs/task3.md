@@ -4,7 +4,7 @@ In the next steps, we will go over how to start using get, send and listen in Ex
 
 ## Use the Get Request Boilerplate
 
-<br>**1** Copy or reuse the app.get request from our previous and paste it into your file<br>
+<br>**1** We will paste this new boilerplate code into our VSCode, replacing the preivous code<br>
 
 ```
 const express = require('express')
@@ -26,15 +26,15 @@ console.log(`Example app listening on port ${port}`)
 
 ## Getting started with res.send
 
-<br>**2** Type the following in the terminal: **node .\filename**<br>
+<br>**2** Type the following in the terminal: **node .\server.js**, and refresh the page to verify that the server is running<br>
 
 ```
-node .\filename
+node .\server.js
 ```
 
 !!! info "Info"
 
-    In the same terminal, the program can be stopped by typing the following: **CTRL + UPPERCASE C\_**
+    In the same terminal, the program can be stopped by typing the following: **CTRL + UPPERCASE C_**
 
 !!! warning "Warning"
 
@@ -43,7 +43,7 @@ node .\filename
     nodemon .\filename.js
     ```
 
-<br>**3** Copy the following code into your vsCode, which will send our first message<br>
+<br>**3** We are then changing our **app.get** to the following, replace the previous **app.get** with this code<br>
 
 ```
 app.get("/", (req, res) => {
@@ -53,7 +53,7 @@ app.get("/", (req, res) => {
 
 ## Testing our app.listen
 
-- We will now test our **app.listen** message to view what we just created with **res.send**
+We will now test our **app.listen** message to view what we just created with **res.send**
 
 <br>**4** Open up a browser of your choice and type: _localhost:3000_<br>
 
@@ -69,7 +69,7 @@ localhost:3000
 
 ## Using res.send for a new page
 
-<br>**6** We will now go back to vsCode to send a message to a new page. Copy the following code:<br>
+<br>**6** We will now go back to vsCode to send a message to a new page. Copy the following code to replace our old **app.get**:<br>
 
 ```
 app.get("/page1", (req, res) => {

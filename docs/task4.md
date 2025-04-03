@@ -4,7 +4,7 @@ In these steps, we will finally connect our web page using express.
 
 ## Creating a template HTML page
 
-<br>**1** Create a new html file and name the file: _home.html_
+<br>**1** Create a new html file and name the file: _home.html_ within the folder 
 
 ![renameHTML](./Task4/renameHTML.png)
 
@@ -33,20 +33,22 @@ In these steps, we will finally connect our web page using express.
 
 ![initHTML](./Task4/intializeHTML.png)
 
-<br>**5** Let's verify that our html page is working by checking our **localhost:3000!**<br>
-!!! success "Success"
-
-    Your page should look like this: <br>
-    ![HTML](./Task4/htmlMessageCheck.png)
 
 ## Connecting our website through express
 
-<br>**6** Return to our other file where the .send is<br>
+<br>**5** Return to our other file where the .send is<br>
 
 - Copy the destination path to the html page we just created
 - Update our app.get
 
   ![reinitGet](./Task4/reintializeGet.png)
+
+<br>**6** Let's verify that our html page is working by checking our **localhost:3000!**<br>
+!!! success "Success"
+
+    Your page should look like this: <br>
+    ![HTML](./Task4/htmlMessageCheck.png)
+
 
 ## Testing our new website with app.get
 
@@ -62,10 +64,10 @@ In these steps, we will finally connect our web page using express.
 
     Your page should look like this: <br>
     ![jsonViewer](./Task4/appGetMessageCheck.png)
+<!-- 
+## Installing json viewer and testing our new website -->
 
-## Installing json viewer and testing our new website
-
-<br>**9** Navigate to the extensions page <br>
+<!-- <br>**9** Navigate to the extensions page <br>
 
 - Search for *json viewer*
 - Download the extension
@@ -77,4 +79,4 @@ In these steps, we will finally connect our web page using express.
 !!! success "Success"
 
     Your page should look like this: <br>
-    ![jsonViewParsed](./Task4/jsonViewParsed.png)
+    ![jsonViewParsed](./Task4/jsonViewParsed.png) -->

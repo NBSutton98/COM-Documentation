@@ -5,28 +5,36 @@ Nodemon will allow us to view our file and have it auto update, which will allev
 
 ## GitHub
 
-<br>**1** Intiliaze GitHub in vsCode by typing the following:
+<br>**1** Intiliaze GitHub in vsCode by typing the following one line at a time:
+
+```
+git intit -b main
+```
+
+```
+git add .
+```
 
 ```
 git commit -m
 ```
 
-<br>**2** Check our file by typing the following in the terminal and changing it to match the file's name:
-
-```
-node .\filename
-```
-
-<br>**3** Add the names of the files we created in the previous step to **.gitignore (node_module/\*)**
+<!-- <br>**2** Add the names of the files we created in the previous step to **.gitignore (node_module/\*)**
 ![gitIgnore](<./Task2/gitIgnore(7).png>)
 !!! success "Success"
 
     Your page should look like this: <br>
-    ![gitIgnore](./Task1/gitIgnore.png)
+    ![gitIgnore](./Task1/gitIgnore.png) -->
+
+<br>**2** Let's quickly check our file by typing the following in the terminal and changing it to match the file's name:
+
+```
+node .\server.js
+```
 
 ## Installing Nodemon
 
-<br>**4** Nagivate to the terminal as we did in our last step **(VIEW --> TERMINAL)** and type the following: _npm install -g nodemon_
+<br>**3** Nagivate to the terminal as we did in our last step **(VIEW --> TERMINAL)** and type the following: _npm install -g nodemon_
 
 ```
 npm install -g nodemon
@@ -34,7 +42,7 @@ npm install -g nodemon
 
 ![Nodemon](./Task2/Nodemon.png)
 
-<br>**5** We will start Nodemon by typing the following in the terminal: _nodemon .\filename.js_
+<br>**4** We will start Nodemon by typing the following in the terminal: _nodemon .\filename.js_
 
 ```
 nodemon .\filename.js
@@ -44,7 +52,7 @@ nodemon .\filename.js
 
 ## Testing our file with Nodemon
 
-<br>**6** Open up a browser and type the following: _localhost:3000/_
+<br>**5** Open up a browser and type the following: _localhost:3000/_
 
 ```
 localhost:3000/
@@ -55,7 +63,7 @@ localhost:3000/
     Your page should look like this:
     ![TestingServer](./Task2/serverTest.png)
 
-<br>**7** Return back to the file and modify the app.get boilerplate from earlier to your own custom message
+<br>**6** Return back to your VSCode file bolierplate and locate app.get and replace our **app.get** boilerplate from earlier to your own custom message
 
 ```
 app.get('/', (req, res) => {
@@ -63,5 +71,5 @@ app.get('/', (req, res) => {
 })
 ```
 
-<br>**8** Change the port number from **3000** to another number from **1-64536**
-![TestingServer](./task3/listenBoilerPlate.png)
+<br>**7** Change the port number from **3000** to another number from **1-64536**, for this example we used **1234**
+![TestingServer](./task3/step8.png)
