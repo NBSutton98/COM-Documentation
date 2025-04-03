@@ -75,14 +75,14 @@ npm init
 npm install express
 ```
 
-<br>**9** Once packages have been installed, verify that the messages inside **package.json** match the image below<br>
+<br>**10** Once packages have been installed, verify that the messages inside **package.json** match the image below<br>
 ![Express](<./Task1/intialization(3).png>)
 
 ## Checking our steps
 
-<br>**10** Navigate to the newly created **package.json** that npm has created for us<br>
+<br>**11* Navigate to the newly created **package.json** that npm has created for us<br>
 ![package](<./Task1/verifyResults(7).png>)
-<br>**11** To verify we did the last steps correctly, type the following into the terminal: _node .\filename_
+<br>**12** To verify we did the last steps correctly, type the following into the terminal: _node .\filename_
 
 ```
 node .\filename

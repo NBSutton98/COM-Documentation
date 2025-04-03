@@ -77,7 +77,14 @@ app.get("/page1", (req, res) => {
 })
 ```
 
-<br>**7** Let's test this page by the /page route and check our result <br>
+<br>**7** Let's test this page by returning back to our browser to see our new changes<br>
+!!! info "Info"
+
+    If the page was accidentallly closed, we can find it again by typing:
+    ```
+    localhost:3000/
+    ```
+
 !!! success "Success"
 
     Your page should look like this: <br>

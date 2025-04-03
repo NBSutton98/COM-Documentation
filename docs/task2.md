@@ -72,4 +72,4 @@ app.get('/', (req, res) => {
 ```
 
 <br>**7** Change the port number from **3000** to another number from **1-64536**, for this example we used **1234**
-![TestingServer](./task3/step8.png)
+![TestingServer](./task2/step8.png)
