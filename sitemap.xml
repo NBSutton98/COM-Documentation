@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mydomain.org/mysite/</loc>
+         <lastmod>2025-04-03</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/glossary/</loc>
+         <lastmod>2025-04-03</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/task1/</loc>
+         <lastmod>2025-04-03</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/task2/</loc>
+         <lastmod>2025-04-03</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/task3/</loc>
+         <lastmod>2025-04-03</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/task4/</loc>
+         <lastmod>2025-04-03</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/troubleShootingGuide/</loc>
+         <lastmod>2025-04-03</lastmod>
+    </url>
+</urlset>
