@@ -4,11 +4,11 @@ In this section, we will go over the steps to installing and creating our first 
 
 ## Creating our file
 
-<br>**1** Select new file that you will be creating<br>
+<br>**1** Hover over the new file button and select a new file<br>
 
 ![NewFile](<./Task1/NewFile(1).png>)
 
-<br>**2** Name our file to whatever name of your choice, make sure to include **.js** at the end
+<br>**2** Name the file to whatever name you prefer, make sure to include **.js** at the end
 ![NewFile](<./Task1/NameFile(2).png>)
 
 ## Getting Started with Express JS
@@ -29,7 +29,7 @@ npm install express
 
 ## Copy over the boilerplate code
 
-<br>**5** We will next copy over the boilerplate code provided to us by Express
+<br>**5** Locate back to your new file, and then paste the boilerplate code that can be copied below
 
 ```
 const express = require('express')
@@ -51,7 +51,7 @@ app.listen(port, () => {
 
 ## Getting started with npm
 
-<br>**6** Navigate to the terminal window by going to **VIEW --> TERMINAL**<br>
+<br>**6** Navigate back to the terminal window if it's no longer open by going to **VIEW --> TERMINAL**<br>
 
 !!! info "Info"
 
@@ -75,7 +75,7 @@ npm init
 <br>**9** Navigate to the newly created **package.json** that npm has created for us<br>
 ![package](<./Task1/verifyResults(7).png>)
 
-<br>**10** Verify the names inside **package.json** match what we have installed<br>
+<br>**10** Once packages have been installed, verify that the messages inside **package.json** match the image below<br>
 ![Express](<./Task1/intialization(3).png>)
 
 <br>**11** To verify we did the last steps correctly, type the following into the terminal: _node .\filename_
@@ -84,8 +84,3 @@ npm init
 node .\filename
 ```
 
-<br>**12** Finally add a .gitignore file to our project, this will allow us to upload our file to github<br>
-!!! success "Success"
-
-    Your page should look like this: <br>
-    ![gitIgnore](./Task1/gitIgnore.png)

@@ -1,12 +1,17 @@
-# Connecting to Github and Installing Nodemon
+# Connecting to GitHub and Installing Nodemon
 
-The following steps will explain how to connect our newly created file to your github, as well as install nodemon.
-Nodemon will allow us to view our file and have it auto update, which will aleviate unecessary repitition.
+The following steps will explain how to connect our newly created file to your GitHub, as well as install nodemon.
+Nodemon will allow us to view our file and have it auto update, which will alleviate unnecessary repitition.
 
-## Github
+## GitHub
 
-<br>**1** Intiliaze github in VSCode
-<br>**2** Check our file by typing the following in the terminal: _node .\filename_
+<br>**1** Intiliaze GitHub in vsCode by typing the following:
+
+```
+git commit -m
+```
+
+<br>**2** Check our file by typing the following in the terminal and changing it to match the file's name:
 
 ```
 node .\filename

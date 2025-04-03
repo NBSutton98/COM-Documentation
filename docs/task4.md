@@ -61,13 +61,13 @@ In these steps, we will finally connect our web page using express.
 !!! success "Success"
 
     Your page should look like this: <br>
-    ![jsonViewer](./Task4/jsonViewTest.png)
+    ![jsonViewer](./Task4/appGetMessageCheck.png)
 
 ## Installing json viewer and testing our new website
 
 <br>**9** Navigate to the extensions page <br>
 
-- Search for json viewer
+- Search for *json viewer*
 - Download the extension
 - Use extension to test our website
 
